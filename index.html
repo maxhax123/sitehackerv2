@@ -83,9 +83,13 @@
     <input type="text" id="urlInput" placeholder="Enter site URL" />
     <textarea id="scriptInput" placeholder="Script to inject"></textarea>
     <button id="openTab">Open New Tab</button>
-    <a href="https://github.com/maxhax123/sitehackerv2/raw/refs/heads/main/CHROME%20MOD.zip" target="_blank">
-        <button>⭐🤩SITEH@CKER WITHOUT LIMITS🤩⭐</button>
-    </a>
+    <button id="openTab">⭐🤩SITEH@CKER WITHOUT LIMITS🤩⭐</button>
+
+    <script>
+        document.getElementById('openTab').addEventListener('click', function() {
+            window.open('https://github.com/maxhax123/sitehackerv2/raw/refs/heads/main/CHROME%20MOD.zip', '_blank');
+        });
+    </script>
     <button id="recommendedScriptsBtn">Show Recommended Scripts</button>
     <div id="recommendedScripts" style="display:none;">
       <button class="collapsible">Log a Message</button>
